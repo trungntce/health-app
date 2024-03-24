@@ -1,9 +1,9 @@
 # Health App
 
 This document provides detailed setup and usage instructions for the Health App project. It covers the application's structure, key components, and the libraries used.
-To log in at the login page, please use:
-account: admin
-password: admin
+##To log in at the login page, please use:
+**Account**: admin
+**Password**: admin
 
 ## Project Structure
 
