@@ -1,0 +1,144 @@
+// Css header
+.wrapper {
+    // test
+    font-size: 50px;
+    color: red !important;
+}
+
+/*css header*/
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.header {
+    width: 100%;
+    height: 64px;
+    background-color: #414141;
+    z-index: 99;
+}
+
+.header-logo {
+    width: 144px;
+    height: 64px;
+    left: 160px;
+}
+
+.header-logo-image {
+    width: 109px;
+    height: 40px;
+    top: 16px;
+    left: 16px;
+}
+
+.header-logo-item {
+    width: 160px;
+    height: 48px;
+    top: 8px;
+    cursor: pointer;
+}
+.header-item-one {
+    left: 592px;
+}
+.header-item-two {
+    left: 752px;
+}
+.header-item-three {
+    left: 912px;
+}
+.text-format {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+    color: #ffffff;
+    font-family: 'Hiragino';
+}
+
+.header-item-icon {
+    width: 32px;
+    height: 32px;
+    top: 8px;
+    left: 8px;
+}
+.header-text-item-format {
+    width: 96px;
+    height: 23px;
+    top: 12px;
+    left: 48px;
+}
+
+.header-item-info-count {
+    width: 16px;
+    height: 16px;
+    top: 8px;
+    left: 32px;
+    background-color: #ea6c00;
+    border-radius: 50%;
+}
+.header-item-info-count-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'inter';
+    color: #ffffff;
+    width: 16px;
+    height: 14.5px;
+    top: 2px;
+}
+
+.header-icon-menu {
+    width: 32px;
+    height: 32px;
+    top: 16px;
+    left: 1088px;
+    cursor: pointer;
+}
+.dropdown-menu {
+    width: 280px;
+    height: 464px;
+    top: 65px;
+    gap: 0px;
+    opacity: 0px;
+    right: 160px;
+    z-index: 1000;
+}
+
+.icon-close-container {
+    width: 32px;
+    height: 32px;
+    left: 248px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #414141;
+    cursor: pointer;
+}
+.dropdown-menu-list {
+    top: 32px;
+}
+.dropdown-menu-list-item {
+    width: 280px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #777777;
+    box-sizing: border-box;
+    border-bottom: 0.5px solid #888888;
+}
+
+.dropdown-menu-list-item-text {
+    width: 248px;
+    height: 26px;
+    top: 23px;
+    left: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Hiragino';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    cursor: pointer;
+    color: #ffffff;
+}

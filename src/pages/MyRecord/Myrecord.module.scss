@@ -1,0 +1,353 @@
+.content {
+    height: 1763px;
+}
+img {
+    transition: transform 0.5s ease;
+}
+.image-record {
+    cursor: pointer;
+}
+.image-record:hover img {
+    transform: scale(1.1);
+}
+
+button {
+    transition: filter 0.3s ease;
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+.content-record {
+    display: flex;
+    padding-top: 56px;
+    padding-left: 160px;
+}
+.column-record {
+    width: 288px;
+    height: 288px;
+    margin-right: 48px;
+    background-color: #ffcc21;
+}
+.image-record {
+    width: 240px;
+    height: 240px;
+
+    top: 24px;
+    left: 24px;
+    overflow: hidden;
+}
+.imgbw {
+    width: 394.05px;
+    height: 262.9px;
+    z-index: 0;
+    filter: grayscale(100%);
+}
+.mask {
+    width: 240px;
+    height: 240px;
+    background-color: #434343;
+    z-index: 1;
+    mix-blend-mode: luminosity;
+    mix-blend-mode: hard-light;
+    opacity: 75%;
+    filter: brightness(50%);
+}
+.image-record-title {
+    width: 240px;
+    height: 30px;
+    top: 88px;
+    z-index: 5;
+}
+.text-format {
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.125px;
+    text-align: center;
+    color: #ffcc21;
+}
+.record-content {
+    width: 160px;
+    height: 24px;
+    top: 128px;
+    left: 40px;
+    background-color: #ff963c;
+    z-index: 4;
+}
+.record-content-text {
+    font-family: 'Hiragino';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.body-record {
+    width: 960px;
+    height: 304px;
+    top: 400px;
+    left: 160px;
+    background-color: #414141;
+}
+
+.title-body-record {
+    width: 96px;
+    height: 36px;
+    top: 16px;
+    left: 24px;
+}
+.title-body-record-text {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.daterecord {
+    width: 146px;
+    height: 27px;
+    top: 16px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+}
+.daterecord-text {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.10999999940395355px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.chartline {
+    width: 866px;
+    height: 211.63px;
+    top: 54px;
+    left: 47px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.btbelowthechart {
+    top: 264px;
+    padding-left: 32px;
+}
+.btbelowthechart button {
+    width: 56px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.button-text button {
+    color: #ffcc21;
+    font-family: 'Hiragino';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.07500000298023224px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.button-text button:last-child {
+    background-color: #ffcc21;
+    color: #ffffff;
+}
+
+.ex-record {
+    width: 960px;
+    height: 264px;
+    top: 824px;
+    left: 160px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #414141;
+}
+
+.ex-record-list {
+    width: 416px;
+    height: 192px;
+    left: 24px;
+}
+.ex-record-list-item::before {
+    content: '•'; /* Dấu chấm tùy chỉnh */
+    color: #ffffff;
+    /* Màu sắc của dấu chấm */
+    padding-top: 7px; /* Khoảng cách giữa dấu chấm và văn bản */
+    font-size: 20px;
+}
+.ex-record-list-item {
+    width: 416px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #777777;
+}
+.ex-record-list-item-title {
+    width: 197px;
+    height: 22px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 0px;
+}
+.item-title {
+    font-family: 'Hiragino';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.07500000298023224px;
+    text-align: left;
+    color: #ffffff;
+}
+.ex-record-list-item-time {
+    width: 68px;
+    height: 22px;
+    left: 335px;
+    gap: 0px;
+    opacity: 0px;
+}
+.item-time {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.09000000357627869px;
+    text-align: right;
+    color: #ffcc21;
+}
+.ex-record-list-item-kcal {
+    width: 63px;
+    height: 18px;
+    top: 20px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+}
+.item-kcal {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.07500000298023224px;
+    text-align: left;
+    color: #ffcc21;
+}
+.ex-record-list-item {
+    position: relative;
+    margin-bottom: 8px;
+}
+.ex-record-list:last-child {
+    left: 480px;
+}
+.ex-record-list-container {
+    width: 934px;
+    height: 180px;
+    top: 56px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #ffcc21 #777777; /* Thumb color and Track color */
+}
+
+.my-diary {
+    width: 960px;
+    height: 512px;
+    top: 1144px;
+    left: 160px;
+    gap: 0px;
+    opacity: 0px;
+}
+.my-diary-title {
+    width: 229px;
+    height: 32px;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.10999999940395355px;
+    text-align: left;
+    color: #414141;
+}
+.diary {
+    width: 960px;
+    height: 480px;
+    top: 32px;
+    left: 0px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.diary-item {
+    width: 231px;
+    height: 231px;
+    gap: 0px;
+    border: 2px solid #707070;
+    opacity: 0px;
+}
+.diary-item-time {
+    width: 70px;
+    height: 48px;
+    top: 16px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+}
+.diary-item-time-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.09000000357627869px;
+    text-align: left;
+    color: #414141;
+}
+.diary-item-description {
+    width: 200px;
+    height: 132px;
+    top: 72px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+}
+.description-text {
+    font-family: 'Hiragino';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0.05999999865889549px;
+    text-align: left;
+    color: #414141;
+}
+
+.button-meal {
+    width: 296px;
+    height: 56px;
+    background: linear-gradient(#ffcc21, #ff963c);
+    border: none;
+    left: 492px;
+    top: 1680px;
+    border-radius: 5px;
+}
+
+.button-format-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Hiragino';
+}

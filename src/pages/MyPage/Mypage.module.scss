@@ -1,0 +1,211 @@
+.content-page-plan-meal {
+    width: 1280px;
+    height: 1120px;
+}
+img {
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    transition: filter 0.3s ease;
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+
+.content-banner-plan-meal-page {
+    width: 1280px;
+    height: 312px;
+    background-color: #2e2e2e;
+}
+.content-banner-plan-meal-page-image {
+    width: 540px;
+    height: 312px;
+    overflow: hidden;
+}
+.content-banner-plan-meal-page-image .content-banner-plan-meal-page-img {
+    width: 540px;
+    height: 540px;
+    top: -114px;
+    z-index: 0;
+}
+.content-banner-plan-meal-page-image-mask {
+    width: 540px;
+    height: 312px;
+    background: linear-gradient(#ffcc21, #ff963c);
+    z-index: 1;
+    opacity: 99.88%;
+    mix-blend-mode: soft-light;
+}
+/*.content-banner-plan-meal-page-photo-text{
+	z-index: 2;
+	left: 180px;
+	top: 66px;
+}*/
+
+.content-banner-plan-meal-main-text {
+    width: 181px;
+    height: 181px;
+    left: 180px;
+    top: 66px;
+}
+.content-banner-plan-meal-page-photo-text {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.content-banner-plan-meal-main-text-context .time {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: 'Inter';
+    top: 83px;
+    left: 39px;
+}
+
+.content-banner-plan-meal-main-text-context .percent {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: 'Inter';
+    top: 76px;
+    left: 91px;
+}
+
+.content-banner-plan-meal-page-chart {
+    width: 589px;
+    height: 293.63px;
+    top: 12px;
+    left: 593px;
+    box-sizing: border-box;
+}
+
+.content-page-plan-meal-tool {
+    width: 1280px;
+    height: auto;
+}
+.content-page-plan-meal-tool-list {
+    width: 136px;
+    height: 136px;
+    top: 24px;
+}
+.content-page-plan-meal-tool-list-first {
+    left: 272px;
+}
+.content-page-plan-meal-tool-list-second {
+    left: 472px;
+}
+.content-page-plan-meal-tool-list-third {
+    left: 672px;
+}
+.content-page-plan-meal-tool-list-fourth {
+    left: 872px;
+}
+
+.content-page-plan-meal-tool-list .tool-img-background {
+    width: 134px;
+    height: 116px;
+    z-index: 0;
+}
+
+.content-page-plan-meal-tool-list .tool-img-item {
+    width: 53px;
+    height: 45px;
+    top: 22px;
+    left: 40px;
+    z-index: 1;
+}
+.content-page-plan-meal-tool-list-first .toolist-title {
+    // top: 68px;
+    left: 27px;
+}
+.content-page-plan-meal-tool-list-second .toolist-title {
+    left: 28%;
+}
+.content-page-plan-meal-tool-list-third .toolist-title {
+    left: 28%;
+}
+.content-page-plan-meal-tool-list-fourth .toolist-title {
+    left: 28%;
+}
+.toolist-title {
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+    color: #ffffff;
+    top: 68px;
+    text-align: center;
+    z-index: 10;
+}
+
+.content-page-meal-list {
+    width: 960px;
+    height: 476px;
+    top: 545px;
+    box-sizing: border-box;
+    left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meal-list-item {
+    width: 240px;
+    height: 234px;
+    box-sizing: border-box;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+}
+.meal-list-item img {
+    width: 234px;
+    height: 234px;
+}
+
+.meal-list-item-title {
+    background-color: #ffcc21;
+    width: 120px;
+    height: 32px;
+    top: 202px;
+}
+
+.meal-list-item-title-text-format {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+    color: #ffffff;
+}
+.meal-list-item-title-text {
+    left: 8px;
+    top: 7px;
+}
+
+.button-meal {
+    width: 296px;
+    height: 56px;
+    background: linear-gradient(#ffcc21, #ff963c);
+    border: none;
+    left: 492px;
+    top: 1064px;
+    border-radius: 5px;
+}
+
+.button-format-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Hiragino';
+}
